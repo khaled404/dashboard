@@ -172,6 +172,109 @@ nav {
         nav ul li button i:hover {
           color: #ab092f; }
 
+.login-container {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/background.jpg");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+  .login-container form {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(223, 68, 18, 0.7)), color-stop(7%, rgba(221, 66, 19, 0.7)), color-stop(23%, rgba(223, 68, 18, 0.7)), to(rgba(171, 9, 47, 0.7))), url("../images/form.png"), -webkit-gradient(linear, right top, left top, from(#df4412), color-stop(7%, #dd4213), color-stop(23%, #df4412), to(#ab092f));
+    background-image: linear-gradient(to left, rgba(223, 68, 18, 0.7) 0%, rgba(221, 66, 19, 0.7) 7%, rgba(223, 68, 18, 0.7) 23%, rgba(171, 9, 47, 0.7) 100%), url("../images/form.png"), linear-gradient(to left, #df4412 0%, #dd4213 7%, #df4412 23%, #ab092f 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom; }
+    .login-container form .logo-box {
+      margin-bottom: 70px; }
+    .login-container form .form-box .d-flex {
+      margin-top: 20px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .login-container form .form-box .d-flex label {
+        color: #fff;
+        margin-left: 7px; }
+      .login-container form .form-box .d-flex a {
+        color: #fff; }
+  .login-container .left {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media (max-width: 768px) {
+      .login-container .left {
+        padding: 5px 20px; } }
+    .login-container .left h2 {
+      color: #fff;
+      margin-top: 60px;
+      font-size: 40px;
+      width: 70%;
+      margin-bottom: 20px; }
+    .login-container .left p {
+      color: #fff; }
+
+.fron-input {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 24px;
+  position: relative; }
+  .fron-input input {
+    background-color: transparent;
+    width: 300px;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 25px; }
+    .fron-input input::-webkit-input-placeholder {
+      color: #ffffff; }
+    .fron-input input::-moz-placeholder {
+      color: #ffffff; }
+    .fron-input input:-ms-input-placeholder {
+      color: #ffffff; }
+    .fron-input input::-ms-input-placeholder {
+      color: #ffffff; }
+    .fron-input input::placeholder {
+      color: #ffffff; }
+    .fron-input input:focus {
+      outline: none;
+      border-color: #dd4213; }
+  .fron-input i {
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: #ffffff; }
+
 * {
   font-family: "MYRIADPRO-REGULAR"; }
 
